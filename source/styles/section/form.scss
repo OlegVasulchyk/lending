@@ -1,0 +1,106 @@
+.form-section {
+    background: #1287bf;
+    color: #fff;
+    padding: 95px 0 112px 0;
+    // text-align: center;
+}
+
+.form {
+        position: relative;
+        margin: auto;
+        width: 67%;
+        padding: 50px 50px 66px 66px;
+        background: #fff;
+        border-radius: 3px;
+        color: #828282;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+       &__container {
+           padding-top: 30px;
+       }
+
+            &:before {
+            position: absolute;
+            margin: auto;
+
+
+            content: '';
+            border: 30px solid transparent;
+            border-bottom: 30px solid #fff;
+            top: -59px;
+        }
+    
+    &-text {
+        text-align: center;
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+        margin-bottom: 33px;
+    }
+
+    &__close-button {
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: -24px;
+        top: -29px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 2px solid #fff;
+        text-align: center;
+        font-size: 2rem;
+        color: #fff;
+        background: #de2b24;
+        transition: 0.3s;
+        outline: none;
+
+        &:hover {
+            background: lighten($color: #de2b24, $amount: 10%)
+        }
+    }
+
+
+    &__fields {
+        margin-bottom: 36px;
+    }
+    &__input {
+        width: 76%;
+        margin: auto auto 8px auto;
+        padding: 18px 20px;
+        border: 1px solid #d8d8d8;
+        border-radius: 3px;
+        font-size: 0.875rem;
+
+        &:focus {
+            box-shadow: 0 0 8px 1px rgba(8, 0, 0, 0.5);
+        }
+    }
+
+
+
+
+
+}
+
+
+.btn-down {
+    background: #1287bf;
+    margin: auto;
+    width: 65px;
+    height: 65px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    outline: none;
+}
+
+.arrow-down {
+    font-size: 30px;
+}
+
+
+

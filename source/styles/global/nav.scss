@@ -1,0 +1,53 @@
+.nav {
+    margin: 0 15px 0 130px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    
+
+    &__link {
+        margin-left: 15px;
+        text-decoration: none;
+        color: #424242;
+        text-transform: capitalize;
+
+        &:hover, 
+        &--active {
+           color: #de2b24;
+        }
+       
+        &:after {
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background-color: #424242;
+            margin-left: 15px;
+        }
+
+        &:last-child::after {
+            display: none;
+        }
+
+        &__item{
+            text-decoration: none;
+            color: #424242;
+
+            &:hover, 
+            &--active {
+               color: #de2b24;
+            }
+        }
+        
+    }
+    
+    
+}
+

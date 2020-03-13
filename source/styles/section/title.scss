@@ -1,0 +1,66 @@
+.title {
+    // text-align: center;
+    margin-bottom: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &:after {
+        content: "";
+        width: 47px;
+        height: 5px;
+        background: #424242;
+
+        .title__form {
+            display: none;
+            margin-bottom: 0;
+        }
+
+    }
+
+    &__header {
+        margin: 0 0 3px 0;
+        font-size: 2.25rem;
+        font-family: "helvetica-neue-bold";
+        line-height: 1.1;
+    }
+
+    &__text {
+        font-family: "helvetica-neue-light";
+        font-size: 1.325rem;
+        margin-bottom: 15px;
+
+        //     &:after {
+    //         content: "";
+    //         width: 47px;
+    //         height: 5px;
+    //         background: #424242;
+
+    //     }
+            // не розумію чому це не спрацювувало
+        
+    }
+
+    &--with-bottom-line {
+        color: #fff;
+        
+        &:after {
+            content: "";
+            width: 47px;
+            height: 5px;
+            background: #fff;
+        }
+    }
+    
+    &__form {
+
+
+        &:after {
+            content: "";
+            width: 0px;
+            height: 0px;
+        }
+    
+    }
+}

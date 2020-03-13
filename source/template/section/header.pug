@@ -1,0 +1,18 @@
+header.header
+    .header__top
+        .container
+            .contacts
+                a.contact(href="tel:306399999999")
+                    i.fa.fa-mobile.contact__icon(aria-hidden="true")
+                    span.contact__text 6337 3178
+                a.contact(href="mailto:info@business.co")
+                    i.fa.fa-envelope.contact__icon.contact__icon--email(aria-hidden="true")
+                    span.contact__text infa@business.co
+                button.facebook-icon: a.facebook-icon__item(href="facebook.com")
+                    i.fa.fa-facebook
+    .container
+        .header__bottom
+            figure.logo: img.logo__picture(src="images/logo.png", alt="logo")
+            include nav.pug
+            button.button.button__header.button--red Free Consultation
+            //- в відео робили дану кнопку з допомогою тегу а.button.header__button.button--red(href="#") потрібно тут підказати як робити правильно я зробив через button щоб по семантиці було правильно

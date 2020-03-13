@@ -1,0 +1,31 @@
+.hero {
+    background: grey url(../images/hero-bg.jpg);
+    background-size: cover;
+    padding: 168px 0 235px;
+    color: #ffffff;
+}
+
+.hero--title--block {
+    font-family: "helvetica-neue-regular";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.hero__text {
+    font-size: 3rem;
+    font-family: "helvetica-neue-bold";
+    font-weight: bold;
+    margin: 0 0 5px; 
+    line-height: 1;
+}
+
+
+.hero__title__text {
+    font-size: 1.825rem;
+    margin: 0 0 35px;
+    line-height: 1; 
+    font-weight: 300;
+}

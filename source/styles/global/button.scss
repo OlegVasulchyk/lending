@@ -1,0 +1,51 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    color: #fff;
+    padding: 12px 22px; 
+    transition: 0.5s;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    
+    &__header {
+        padding: 12px 22px;
+        margin-left: 10px;
+    }
+        // & {
+        //     // display: flex;
+        //     // justify-content: center;
+        //     // align-items: center; // або можна margin:auto
+        //     // я не знаю що правильніше задавати ширину кнопок
+        //     //  з допомогою padding чи задавати ширину з допомогою width та height і цетрувати тоді флексами текст
+        // }
+
+
+
+    &--red {
+        background: #de2b24;
+        font-size: 1rem;
+        padding: 15px 30px;
+
+        &:hover {
+            background: lighten(#de2b24 , 10%);
+        }
+    }
+
+    &--yellow {
+        padding: 24px 39px;
+        background: #f8cd53;
+        font-size: 2rem;
+        border-radius: 5px;
+
+        &:hover {
+            background: lighten(#f8cd53 , 10%);
+        }
+    }
+
+    &--text-uppercase {
+        text-transform: uppercase;
+    }
+}

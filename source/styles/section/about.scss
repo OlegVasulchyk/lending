@@ -1,0 +1,32 @@
+.about {
+    color: #424242;
+    background: #ffffff;
+    padding: 95px 0 115px;
+    
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+    
+    }
+    &__items {
+        width: 25%;
+        text-align: center;
+    }
+
+
+    &__header {
+        font-family: "helvetica-neue-bold" sans-serif;
+        font-size: 1.325rem;
+        margin: 0 0 7px 0;
+    }
+    
+    &__description {
+        font-family: "helvetica-neue-light" sans-serif;
+        margin: 0;
+    }
+}
+
+
